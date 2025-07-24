@@ -27,118 +27,121 @@
     </style>
 </head>
 
-<body class="bg-[#F5F8FF] text-black font-inter px-[15%]">
+<body class="bg-[#F5F8FF] text-black font-inter sm:px-[15%] px-[5%]">
     <header class="flex justify-between items-center py-5">
         <img class="w-32" src="./assets/logo.png" alt="">
         <nav class="flex items-center gap-10 list-none text-gray-500">
-            <li class="text-black font-semibold">Home</li>
-            <li>Shop</li>
-            <li>About us</li>
-            <li class="flex items-center gap-2 text-gray-800"><i
-                    class="fa-solid fa-cart-shopping text-2xl"></i>Cart<span>($56)</span></li>
+            <div class="hidden sm:flex items-center gap-10 list-none text-gray-500">
+                <li class="text-black font-semibold">Home</li>
+                <li>Shop</li>
+                <li>About us</li>
+            </div>
+            <li class="flex items-center gap-2 text-gray-800">
+                <i class="fa-solid fa-cart-shopping text-2xl"></i>Cart<span>($56)</span>
+            </li>
         </nav>
     </header>
-    <section class="flex justify-between items-end py-[20vh]">
+    <section class="flex sm:flex-row flex-col justify-between items-end sm:py-[20vh] py-[2vh] ">
+        <img class="py-[2vh]" src="./assets/hero-flower.png" alt="Flowers">
         <div class="flex flex-col gap-5">
-            <h1 class="text-7xl font-semibold font-noto leading-tight">ALWAYS <span class="text-orange-600">FRESH
+            <h1 class="text-4xl font-semibold font-noto leading-tight">ALWAYS <span class="text-orange-600">FRESH
                     <br>FLOWERS</span>
             </h1>
-            <p class="text-2xl text-gray-500 leading-tight tracking-wide">Indulge your senses with the beauty and
+            <p class="text-xl text-gray-500 leading-tight tracking-wide">Indulge your senses with the beauty and
                 fragrance of <br> our
                 fresh flower
                 shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br> are
                 perfect for
                 any occasion. </p>
         </div>
-        <img src="./assets/hero-flower.png" alt="Flowers">
     </section>
-    <section class="">
+    <section class="py-[4vh]">
         <div class="text-center">
-            <h1 class="text-6xl font-semibold font-noto leading-tight mb-3"><span class="text-orange-600">Our</span>
+            <h1 class="text-4xl font-semibold font-noto leading-tight mb-3"><span class="text-orange-600">Our</span>
                 Plants
             </h1>
-            <p class="text-2xl text-gray-500 leading-tight tracking-wide px-[5vw] mb-3">Indulge your senses with the
+            <p class="text-xl text-gray-500 leading-tight tracking-wide px-[5vw] mb-3">Indulge your senses with the
                 beauty
                 and
                 fragrance of our fresh flower shop. From classic roses to exotic
                 blooms, we offer a wide variety of fresh.</p>
         </div>
-        <div class="flex flex-wrap items-center justify-evenly gap-10 py-10">
+        <div class="grid  sm:grid-cols-4 grid-cols-2 items-center justify-evenly gap-10 sm:py-10 py-4">
             <div class="flex flex-col items-center gap-3">
                 <img src="./assets//sample-flower-image.png" alt="">
                 <div class="text-center">
-                    <h6 class="text-2xl">Lily Blossom</h6>
-                    <p class="text-2xl font-bold ">20 USD</p>
+                    <h6 class="text-xl sm:text-2xl">Lily Blossom</h6>
+                    <p class="text-xl sm:text-2xl font-bold ">20 USD</p>
                 </div>
                 <button class="bg-orange-600 text-white w-full py-3">ADD TO CART</button>
             </div>
             <div class="flex flex-col items-center gap-3">
                 <img src="./assets//sample-flower-image.png" alt="">
                 <div class="text-center">
-                    <h6 class="text-2xl">Lily Blossom</h6>
-                    <p class="text-2xl font-bold ">20 USD</p>
+                    <h6 class="text-xl sm:text-2xl">Lily Blossom</h6>
+                    <p class="text-xl sm:text-2xl font-bold ">20 USD</p>
                 </div>
                 <button class="bg-orange-600 text-white w-full py-3">ADD TO CART</button>
             </div>
             <div class="flex flex-col items-center gap-3">
                 <img src="./assets//sample-flower-image.png" alt="">
                 <div class="text-center">
-                    <h6 class="text-2xl">Lily Blossom</h6>
-                    <p class="text-2xl font-bold ">20 USD</p>
+                    <h6 class="text-xl sm:text-2xl">Lily Blossom</h6>
+                    <p class="text-xl sm:text-2xl font-bold ">20 USD</p>
                 </div>
                 <button class="bg-orange-600 text-white w-full py-3">ADD TO CART</button>
             </div>
             <div class="flex flex-col items-center gap-3">
                 <img src="./assets//sample-flower-image.png" alt="">
                 <div class="text-center">
-                    <h6 class="text-2xl">Lily Blossom</h6>
-                    <p class="text-2xl font-bold ">20 USD</p>
+                    <h6 class="text-xl sm:text-2xl">Lily Blossom</h6>
+                    <p class="text-xl sm:text-2xl font-bold ">20 USD</p>
                 </div>
                 <button class="bg-orange-600 text-white w-full py-3">ADD TO CART</button>
             </div>
             <div class="flex flex-col items-center gap-3">
                 <img src="./assets//sample-flower-image.png" alt="">
                 <div class="text-center">
-                    <h6 class="text-2xl">Lily Blossom</h6>
-                    <p class="text-2xl font-bold ">20 USD</p>
+                    <h6 class="text-xl sm:text-2xl">Lily Blossom</h6>
+                    <p class="text-xl sm:text-2xl font-bold ">20 USD</p>
                 </div>
                 <button class="bg-orange-600 text-white w-full py-3">ADD TO CART</button>
             </div>
             <div class="flex flex-col items-center gap-3">
                 <img src="./assets//sample-flower-image.png" alt="">
                 <div class="text-center">
-                    <h6 class="text-2xl">Lily Blossom</h6>
-                    <p class="text-2xl font-bold ">20 USD</p>
+                    <h6 class="text-xl sm:text-2xl">Lily Blossom</h6>
+                    <p class="text-xl sm:text-2xl font-bold ">20 USD</p>
                 </div>
                 <button class="bg-orange-600 text-white w-full py-3">ADD TO CART</button>
             </div>
             <div class="flex flex-col items-center gap-3">
                 <img src="./assets//sample-flower-image.png" alt="">
                 <div class="text-center">
-                    <h6 class="text-2xl">Lily Blossom</h6>
-                    <p class="text-2xl font-bold ">20 USD</p>
+                    <h6 class="text-xl sm:text-2xl">Lily Blossom</h6>
+                    <p class="text-xl sm:text-2xl font-bold ">20 USD</p>
                 </div>
                 <button class="bg-orange-600 text-white w-full py-3">ADD TO CART</button>
             </div>
             <div class="flex flex-col items-center gap-3">
                 <img src="./assets//sample-flower-image.png" alt="">
                 <div class="text-center">
-                    <h6 class="text-2xl">Lily Blossom</h6>
-                    <p class="text-2xl font-bold ">20 USD</p>
+                    <h6 class="text-xl sm:text-2xl">Lily Blossom</h6>
+                    <p class="text-xl sm:text-2xl font-bold ">20 USD</p>
                 </div>
                 <button class="bg-orange-600 text-white w-full py-3">ADD TO CART</button>
             </div>
         </div>
     </section>
-    <section class="flex items-center gap-20 py-40">
-        <div class="relative w-[70vw]">
-            <img class="" src="./assets/flower-store.png" alt="">
-            <img class="absolute -top-28 -right-28 w-72 drop-shadow-[0_6px_12px_rgba(0,0,0,0.5)]"
+    <section class="flex flex-col sm:flex-row items-center gap-20 py-40">
+        <div class="relative sm:w-[70vw] w-full">
+            <img class="h-[50vh] w-[100vw]" src="./assets/flower-store.png" alt="">
+            <img class="hidden sm:block absolute -top-28 -right-28 w-72 drop-shadow-[0_6px_12px_rgba(0,0,0,0.5)]"
                 src="./assets/trusted-badge.png" alt="">
         </div>
         <div class="">
-            <h1 class="text-6xl font-semibold font-noto leading-tight">Flower & Plants <br> Lover</h1>
-            <ul class="flex flex-col gap-10 text-2xl text-gray-500 leading-tight tracking-wide py-10 pl-10">
+            <h1 class="text-4xl font-semibold font-noto leading-tight">Flower & Plants <br> Lover</h1>
+            <ul class="flex flex-col gap-10 text-xl text-gray-500 leading-tight tracking-wide py-10 pl-10">
                 <li class="list-disc">Indulge your senses with the beauty and <br> fragrance of our fresh flower shop.
                     From classic <br> roses to blooms, we offer a wide variety <br> of fresh.</li>
                 <li class="list-disc">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
@@ -150,74 +153,84 @@
     </section>
     <section class="">
         <div class="text-center">
-            <h1 class="text-6xl font-semibold font-noto leading-tight mb-3"><span class="text-orange-600">Latest</span>
+            <h1 class="text-4xl sm:text-6xl font-semibold font-noto leading-tight mb-3"><span
+                    class="text-orange-600">Latest</span>
                 Deals
             </h1>
-            <p class="text-2xl text-gray-500 leading-tight tracking-wide px-[5vw] mb-3">Indulge your senses with the
+            <p class="sm:text-2xl text-xl text-gray-500 leading-tight tracking-wide px-[5vw] mb-3">Indulge your senses
+                with the
                 beauty and
                 fragrance of our fresh flower shop. From classic roses to exotic
                 blooms, we offer a wide variety of fresh.</p>
         </div>
-        <div class="grid grid-cols-3 grid-rows-2 gap-4 py-14">
+        <div class="grid sm:grid-cols-3 sm:grid-rows-2 gap-4 py-20">
 
             <div class="flex flex-col w-full h-full relative">
-                <img class="rounded-2xl w-full h-full object-cover filter brightness-75" src="./assets/deal-bloom.png" alt="" />
+                <img class="rounded-2xl w-full h-full object-cover filter brightness-75" src="./assets/deal-bloom.png"
+                    alt="" />
                 <div
                     class="flex flex-col items-center justify-center inset-0 w-full h-full text-white text-center absolute gap-3 top-0 left-0">
-                    <h5 class="text-2xl font-noto">60% Off | Bloom Plant</h5>
-                    <a href="" class="underline text-base font-semibold">Shop Now</a>
+                    <h5 class="sm:text-2xl text-xl font-noto">60% Off | Bloom Plant</h5>
+                    <a href="" class="underline text-sm font-semibold">Shop Now</a>
                 </div>
             </div>
 
-            <div class="flex flex-col col-span-2 row-span-2 w-full h-full relative">
-                <img class="rounded-2xl w-full h-full object-cover filter brightness-75" src="./assets/deal-zabo.png" alt="" />
+            <div class="flex flex-col sm:col-span-2 sm:row-span-2 w-full h-full relative">
+                <img class="rounded-2xl w-full h-full object-cover filter brightness-75" src="./assets/deal-zabo.png"
+                    alt="" />
                 <div
                     class="flex flex-col items-center justify-center inset-0 w-full h-full text-white text-center absolute gap-3 top-0 left-0">
-                    <h5 class="text-2xl font-noto">60% Off | Bloom Plant</h5>
-                    <a href="" class="underline text-base font-semibold">Shop Now</a>
+                    <h5 class="sm:text-2xl text-xl font-noto">60% Off | Bloom Plant</h5>
+                    <a href="" class="underline text-sm font-semibold">Shop Now</a>
                 </div>
             </div>
 
             <div class="flex flex-col w-full h-full relative">
-                <img class="rounded-2xl w-full h-full object-cover filter brightness-75" src="./assets/deal-ana.png" alt="" />
+                <img class="rounded-2xl w-full h-full object-cover filter brightness-75" src="./assets/deal-ana.png"
+                    alt="" />
                 <div
                     class="flex flex-col items-center justify-center inset-0 w-full h-full text-white text-center absolute gap-3 top-0 left-0">
-                    <h5 class="text-2xl font-noto">60% Off | Bloom Plant</h5>
-                    <a href="" class="underline text-base font-semibold">Shop Now</a>
+                    <h5 class="sm:text-2xl text-xl font-noto">60% Off | Bloom Plant</h5>
+                    <a href="" class="underline text-sm font-semibold">Shop Now</a>
                 </div>
             </div>
         </div>
 
     </section>
-    <section class="">
-        <h1>Join the colorful Bunch</h1>
-        <form class="">
-            <input type="text">
-            <button type="submit">Subscribe</button>
-        </form>
+    <section class="flex flex-col w-full h-full relative">
+        <img class="w-[100vw]" src="./assets/news-letter-bg.png" alt="">
+        <div
+            class="flex flex-col items-center justify-center inset-0 w-full h-full text-white text-center absolute sm:gap-3">
+            <h1 class="sm:text-6xl text-3xl font-semibold font-noto leading-tight">Join the colorful Bunch</h1>
+            <form class="flex items-center py-5">
+                <input class="sm:w-[700px] h-12 p-4" placeholder="Write email" type="text">
+                <button class="bg-orange-600 h-12 sm:px-10 px-4" type="submit">Subscribe</button>
+            </form>
+        </div>
     </section>
-    <footer>
+    <footer class="grid grid-cols-4 justify-between items-start py-40 gap-10">
         <div class="">
             <img src="./assets/logo.png" alt="">
-            <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            <p class="sm:text-2xl text-xl text-gray-500 leading-tight tracking-wide mt-5">Indulge your senses with the
+                <br>
+                beauty and fragrance of our fresh <br> flower shop.
+            </p>
         </div>
-        <div class="">
-            <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Blog</li>
-                <li>FAQ</li>
-                <li>Contact Us</li>
-            </ul>
-            <ul>
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Service</li>
-                <li>Help Center</li>
-            </ul>
-        </div>
-        <div class="">
+        <ul class="flex flex-col gap-7 text-lg text-gray-500 leading-tight tracking-wide">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Blog</li>
+            <li>FAQ</li>
+            <li>Contact Us</li>
+        </ul>
+        <ul class="flex flex-col gap-7 text-lg text-gray-500 leading-tight tracking-wide">
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+            <li>Help Center</li>
+        </ul>
+        <div class="flex items-center gap-5">
             <img src="./assets/icon-linkedin.png" alt="">
             <img src="./assets/icon-twitter.png" alt="">
             <img src="./assets/icon-facebook.png" alt="">
