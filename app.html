@@ -27,8 +27,8 @@
     </style>
 </head>
 
-<body class="bg-[#F5F8FF] text-black font-inter sm:px-[15%] px-[5%]">
-    <header class="flex justify-between items-center py-5">
+<body class="bg-[#F5F8FF] text-black font-inter">
+    <header class="flex justify-between items-center py-5  sm:px-[15%] px-[5%]">
         <img class="w-32" src="./assets/logo.png" alt="">
         <nav class="flex items-center gap-10 list-none text-gray-500">
             <div class="hidden sm:flex items-center gap-10 list-none text-gray-500">
@@ -41,24 +41,26 @@
             </li>
         </nav>
     </header>
-    <section class="flex sm:flex-row flex-col justify-between items-end sm:py-[20vh] py-[2vh]">
+    <section class="flex sm:flex-row flex-col justify-between items-end sm:py-[20vh] py-[5vh] ">
         <img class="py-[2vh] sm:py-[0vh] sm:hidden block" src="./assets/hero-flower.png" alt="Flowers">
-        <div class="flex flex-col gap-5">
-            <h1 class="sm:text-6xl text-4xl font-semibold font-noto leading-tight">ALWAYS <span
-                    class="text-orange-600">FRESH
-                    <br>FLOWERS</span>
-            </h1>
-            <p class="text-2xl sm:text-xl text-gray-500 leading-tight tracking-wide">Indulge your senses with the
-                beauty and
-                fragrance of our
-                fresh flower
-                shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are
-                perfect for
-                any occasion. </p>
+        <div class="flex sm:flex-row flex-col justify-between items-end sm:px-[15%] px-[5%]">
+            <div class="flex flex-col gap-5">
+                <h1 class="sm:text-6xl text-4xl font-semibold font-noto leading-tight">ALWAYS <span
+                        class="text-orange-600">FRESH
+                        <br>FLOWERS</span>
+                </h1>
+                <p class="text-2xl sm:text-xl text-gray-500 leading-tight tracking-wide">Indulge your senses with the
+                    beauty and
+                    fragrance of our
+                    fresh flower
+                    shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are
+                    perfect for
+                    any occasion. </p>
+            </div>
+            <img class="py-[2vh] sm:py-[0vh] hidden sm:block" src="./assets/hero-flower.png" alt="Flowers">
         </div>
-        <img class="py-[2vh] sm:py-[0vh] hidden sm:block" src="./assets/hero-flower.png" alt="Flowers">
     </section>
-    <section class="py-[4vh]">
+    <section class="py-[4vh]  sm:px-[15%] px-[5%]">
         <div class="text-center">
             <h1 class="sm:text-6xl text-4xl font-semibold font-noto leading-tight mb-3"><span
                     class="text-orange-600">Our</span>
@@ -138,9 +140,9 @@
             </div>
         </div>
     </section>
-    <section class="flex flex-col sm:flex-row items-center gap-20 py-40">
+    <section class="flex flex-col sm:flex-row items-center gap-20 py-40  sm:px-[15%] px-[5%]">
         <div class="relative sm:w-[70vw] w-full">
-            <img class="h-[50vh] w-[100vw]" src="./assets/flower-store.png" alt="">
+            <img class="h-[70vh] w-[100vw]" src="./assets/flower-store.png" alt="">
             <img class="hidden sm:block absolute -top-28 -right-28 w-72 drop-shadow-[0_6px_12px_rgba(0,0,0,0.5)]"
                 src="./assets/trusted-badge.png" alt="">
         </div>
@@ -156,7 +158,7 @@
             </ul>
         </div>
     </section>
-    <section class="">
+    <section class=" sm:px-[15%] px-[5%]">
         <div class="text-center">
             <h1 class="text-4xl sm:text-6xl font-semibold font-noto leading-tight mb-3"><span
                     class="text-orange-600">Latest</span>
@@ -176,7 +178,7 @@
                 <div
                     class="flex flex-col items-center justify-center inset-0 w-full h-full text-white text-center absolute gap-3 top-0 left-0">
                     <h5 class="sm:text-2xl text-xl font-noto">60% Off | Bloom Plant</h5>
-                    <a href="" class="underline text-sm font-semibold">Shop Now</a>
+                    <a href="" class="underline sm:text-base text-sm font-semibold">Shop Now</a>
                 </div>
             </div>
 
@@ -186,7 +188,7 @@
                 <div
                     class="flex flex-col items-center justify-center inset-0 w-full h-full text-white text-center absolute gap-3 top-0 left-0">
                     <h5 class="sm:text-2xl text-xl font-noto">60% Off | Bloom Plant</h5>
-                    <a href="" class="underline text-sm font-semibold">Shop Now</a>
+                    <a href="" class="underline sm:text-base text-sm font-semibold">Shop Now</a>
                 </div>
             </div>
 
@@ -196,14 +198,14 @@
                 <div
                     class="flex flex-col items-center justify-center inset-0 w-full h-full text-white text-center absolute gap-3 top-0 left-0">
                     <h5 class="sm:text-2xl text-xl font-noto">60% Off | Bloom Plant</h5>
-                    <a href="" class="underline text-sm font-semibold">Shop Now</a>
+                    <a href="" class="underline sm:text-base text-sm font-semibold">Shop Now</a>
                 </div>
             </div>
         </div>
 
     </section>
     <section class="flex flex-col w-full h-full relative">
-        <img class="w-[100vw]" src="./assets/news-letter-bg.png" alt="">
+        <img class="w-full h-full" src="./assets/news-letter-bg.png" alt="">
         <div
             class="flex flex-col items-center justify-center inset-0 w-full h-full text-white text-center absolute sm:gap-3">
             <h1 class="sm:text-6xl text-3xl font-semibold font-noto leading-tight">Join the colorful Bunch</h1>
@@ -213,12 +215,11 @@
             </form>
         </div>
     </section>
-    <footer class="grid grid-cols-4 justify-between items-start py-40 gap-10">
+    <footer class="grid sm:grid-cols-4 justify-between items-start pt-40 pb-10 gap-10 sm:px-[15%] px-[5%] ">
         <div class="">
             <img src="./assets/logo.png" alt="">
             <p class="sm:text-2xl text-xl text-gray-500 leading-tight tracking-wide mt-5">Indulge your senses with the
-                <br>
-                beauty and fragrance of our fresh <br> flower shop.
+                beauty and fragrance of our fresh flower shop.
             </p>
         </div>
         <ul class="flex flex-col gap-7 text-lg text-gray-500 leading-tight tracking-wide">
